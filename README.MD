@@ -145,7 +145,7 @@ Provide an **overview** and **description** of a standard software testing proce
 
 
 
-
+reference australian privacy policies - as outlined in myob privacy onboarding. discuss how the ACME corporation has policies inplace to comply with these regulations. 
 
 
 
@@ -231,7 +231,7 @@ A well structured approach to data-integrity that comprehensively encorporates a
 
 2) Ian, *Database.Guide* (2017) Retrieved at  https://database.guide/codds-12-rules/ , on Cobb's rules.
 
-3Adrienne Watt & Nelson Eng, *Database Design - 2nd Edition*, (2014), Victoria, B.C.:BCcampus, retrieved from https://opentextbc.ca/dbdesign01/ , Chapter 9 - Integrity Rules and Constraints.
+3) Adrienne Watt & Nelson Eng, *Database Design - 2nd Edition*, (2014), Victoria, B.C.:BCcampus, retrieved from https://opentextbc.ca/dbdesign01/ , Chapter 9 - Integrity Rules and Constraints.
 
 4) Unlisted Author, Guru99, retrived from:  https://www.guru99.com/relational-data-model-dbms.html
 
@@ -245,9 +245,39 @@ A well structured approach to data-integrity that comprehensively encorporates a
 
 ![q11](docs/q11.png)
 
+In relational databases SQL database language allows us to manipulate our data. We can use SQL to generate the database and it's table structures, add, update and remove from the database and also access our database through queries in order to retrieve data and present it in a usable format. (1)
 
+SQL command statements are how we perform these manipulations. Below is a server log showing the SQL commands being carried out when a user utilises a search function on a recipe web app for "chicken". In this Ruby on Rails app example, the logic for this function was not written in pure SQL, but Active Record converts the logic to an equivalent SQL query and performs it, as seen below in the server log.(2)
+
+While the search function example shows how SQL manipulates and interact with data in this instance it is not changing the data, it is retrieving it for use. Other command statements that do allow manipulations that change data are as below:
+
+SELECT - to query data in the database
+
+INSERT - to insert data into a table
+
+UPDATE - to update data in a table
+
+DELETE - to delete data from a table (3)
+
+Img 1.3 (4)
 
 ![Screen Shot 2020-05-09 at 3.55.03 pm](docs/Screen Shot 2020-05-09 at 3.55.03 pm.png)
+
+
+
+**Notes:**
+
+1)  Adrienne Watt & Nelson Eng, *Database Design - 2nd Edition*, (2014), Victoria, B.C.:BCcampus, Chapter 15 SQL Structured Query Language,  https://opentextbc.ca/dbdesign01/chapter/sql-structured-query-language/
+
+2)  *Rails Guides*, Active Record Query Interface retrived at: https://guides.rubyonrails.org/active_record_querying.html
+
+30 Adrienne Watt & Nelson Eng, *Database Design - 2nd Edition*, (2014), Victoria, B.C.:BCcampus, Chapter 16 SQL Data Manipulation Language, https://opentextbc.ca/dbdesign01/chapter/chapter-sql-dml/
+
+4) Georgia Leng, Nic Megoran and Joshua Gillmore, *Recipe App* 'Eats Good', (2020), available at:  https://github.com/NicMeg/recipe-app , live web app : https://eats-good.herokuapp.com/ , screen shot of local server log showing server action upon forming search request and search results on app open in browser.
+
+
+
+
 
 > The efficiency of an *app* (i.e. site) and the algorithms used are of the utmost importance. The next set of questions relate to this RfQ-requirement.
 
