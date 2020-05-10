@@ -179,9 +179,7 @@ For every row there will be a *single entry* for each of these attribute column 
 
 1.0
 
-![Screen Shot 2020-05-09 at 3.52.24 pm](docs/Screen Shot 2020-05-09 at 3.52.24 pm.png)
-
-
+![recipes_table](docs/recipes_table.png)
 
 **Because each relation has a column attribute containing a unique primary key field other tables/relations can include this primary key ID as a foreign key, enabling the construction of a complex and accurate way to associate data.**
 
@@ -261,9 +259,7 @@ DELETE - to delete data from a table (3)
 
 Img 1.3 (4)
 
-![Screen Shot 2020-05-09 at 3.55.03 pm](docs/Screen Shot 2020-05-09 at 3.55.03 pm.png)
-
-
+![search_chicken](docs/search_chicken.png)
 
 **Notes:**
 
